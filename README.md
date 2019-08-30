@@ -22,3 +22,22 @@ requered body:
 }
 
 DELETE /api/books/:id - delete book from db by id
+
+# required env variables for db
+    HOST,
+    USER,
+    PASSWORD,
+    DATABASE,
+    DB_PORT
+    
+# migrate db
+
+>> cd db/
+>> node migrate.js up/(down - roll back) migrations/1_Create_table_Authors.js
+>> node migrate.js up/(down - roll back) migrations/2_Create_table_Books.js
+
+# run application
+
+>>npm install
+>>npm start
+
