@@ -32,12 +32,15 @@ DELETE /api/books/:id - delete book from db by id
     
 # migrate db
 
->> cd db/
->> node migrate.js up/(down - roll back) migrations/1_Create_table_Authors.js
->> node migrate.js up/(down - roll back) migrations/2_Create_table_Books.js
+$ cd db/
+
+$ node migrate.js up/(down - roll back) migrations/1_Create_table_Authors.js
+
+$ node migrate.js up/(down - roll back) migrations/2_Create_table_Books.js
 
 # run application
 
->>npm install
->>npm start
+$ npm install
+
+$ npm start
 
