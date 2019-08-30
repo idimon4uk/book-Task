@@ -1,0 +1,27 @@
+{
+  "name": "testtask1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "koa-body": "^4.1.1",
+    "koa-bodyparser": "^4.2.1",
+    "koa": "^2.8.1",
+    "koa-router": "^7.4.0",
+    "mysql": "^2.17.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/idimon4uk/book-Task.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/idimon4uk/book-Task/issues"
+  },
+  "homepage": "https://github.com/idimon4uk/book-Task#readme"
+}
